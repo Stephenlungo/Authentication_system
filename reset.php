@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
 
         $param_id = $id;
         
-        if(mysqli_stmt_execute($stmt))
+        if(mysqli_stmt_execute($stmt)) //this block of code executes the following statements
         {
             mysqli_stmt_store_result($stmt);
             mysqli_stmt_bind_result($stmt, $current_hashed_password);
