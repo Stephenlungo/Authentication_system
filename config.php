@@ -11,5 +11,6 @@ if(!$connection)
 {
     die("Error, could not connect. ". mysqli_connect_error());
 }
-
+//this is just a comment
 ?>
+
