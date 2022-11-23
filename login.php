@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
         $email = $_POST['email'];
         $password = $_POST['password'];
         
-        $sql = "SELECT id, username, pass FROM user WHERE username = ?";
+        $sql = "SELECT id, username, pass FROM user WHERE username = ?"; //Query to get the username, password and id
 
         $stmt = mysqli_prepare($connection, $sql);
 
