@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Profile | Authentication System </title>
+        <title>My Account | Authentication System </title>
     </head>
 <body>
+    //PHP code follows here below
 
 
 <?php
@@ -20,7 +21,7 @@ echo "<h1> WELCOME </h1>. " . $_SESSION['email'];
 </div>
 
 <div>
-<a href="reset.php">Reset Password</a>
+<a href="reset.php">Reset Password</a> //this is a reset password reset link
 </div>
 
 </body>
